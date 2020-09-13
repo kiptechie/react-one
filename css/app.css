@@ -1,0 +1,44 @@
+body {
+    background-color: #212121;
+    color: #f4f4f4;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+.text-center {
+    text-align: center;
+    justify-content: center;
+    display: block;
+    margin: 12px;
+}
+
+.my-img {
+    border-radius: 12px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 12px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
+
+.win {
+    background-color: green;
+    color: white;
+    border-radius: 12px;
+    padding: 4px;
+}
+
+.loose {
+    background-color: red;
+    color: white;
+    border-radius: 12px;
+    padding: 4px;
+}
